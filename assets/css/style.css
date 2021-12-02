@@ -42,12 +42,54 @@ a {
 .hero {
     height: 200px;
     width: 100%;
-    margin-bottom: 30px;
     background-image: url("../images/heroImage.jpg");
     background-size: center;
 }
 
+.about-me-header{
+    padding: 15px;
+    text-align: center;
+    background: #5885b3;
+}
+.about-me-text{
+    text-align: center;
+}
 
+.about-me h2{
+    padding-right: 20px;
+    text-align: center;
+    
+}
+.work-examples-header{
+    padding: 15px;
+    
+    text-align: center;
+    background: #5885b3;
+}
+.webPic{
+    display: block;
+    margin: 1em auto;
+}
+.contact-me {
+display: flex;
+}
+.contact-me-text {
+    text-align: center;
+}
+.contact-me-header{
+    padding: 15px;
+    text-align: center;
+    background: #5885b3;
+}
+.resume-header{
+    padding: 15px;
+    text-align: center;
+    background: #5885b3;
+}
+.resume img{
+    display: block;
+    margin: 1em auto;
+}
 footer {
     padding: 20px;
     text-align: center;
