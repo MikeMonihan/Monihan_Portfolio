@@ -45,14 +45,20 @@ a {
     background-image: url("../images/heroImage.jpg");
     background-size: center;
 }
+.center{
+    display: flex;
 
+}
 .about-me-header{
     padding: 15px;
     text-align: center;
     background: #5885b3;
 }
+
 .about-me-text{
+    padding: 50px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-me h2{
@@ -74,7 +80,10 @@ a {
 display: flex;
 }
 .contact-me-text {
+    padding-top: 20px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
 }
 .contact-me-header{
     padding: 15px;
