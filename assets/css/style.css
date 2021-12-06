@@ -1,44 +1,46 @@
-* {
+/*Adding a template for the website to be within a border box*/ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/*Setting the website background color*/
 body{
     background-color: #7FDBFF;
 }
-
+/*Adding padding, changing the font, background color, and base color*/
 header{
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #001f3f;
     color: white;
 }
+/*Displaying the h1 element as inline-block and setting the font size*/
 header h1 {
     display: inline-block;
     font-size: 24px;
 }
-
+/*When the cursor is detected over the navagation elements change background color*/
 .topColor a:hover {
     background-color: #ddd;
 }
+/*Adding a margin on the bottom, floating the element right, and setting font size*/
 header div{
     margin-bottom: 100px;
     float: right;
     font-size: 20px;
 }
-header div ul {
-    list-style-type: none;
-}
+/*Setting list items to be shown inline block and have a margin to their left*/
 header div ul li {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Setting the a element color to white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Setting the height, width, linking the image, and setting the image to be center and cover
+the element completely*/
 .hero {
     height: 350px;
     width: 100%;
@@ -46,70 +48,79 @@ a {
     background-size: center;
     background-size: cover;
 }
+/*Displaying elements as flexed*/
 .center{
     display: flex;
-
 }
+/*Setting the padding, centering the text, setting the background color, and changing font*/
 .about-me-header{
     padding: 15px;
     text-align: center;
     background: #5885b3;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
+/*Adding padding, centering the text, and changing font*/
 .about-me-text{
     padding: 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Adding padding to the right and centering the element */
 .about-me h2{
     padding-right: 20px;
     text-align: center;
-    
+
 }
+/*Setting the padding, centering the text, setting the background color, and changing font*/
 .work-examples-header{
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background: #5885b3;
 }
+/*Displaying as a block and setting their margins*/
 .webPic{
     display: block;
     margin: 1em auto;
 }
+/*Displaying elements as flexed*/
 .contact-me {
 display: flex;
 }
+/*Adding padding to the top, centering the text, changing the font, and adding padding to bottom*/
 .contact-me-text {
     padding-top: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
 }
+/*Setting the padding, centering the text, setting the background color, and changing font*/
 .contact-me-header{
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background: #5885b3;
 }
+/*Setting the padding, centering the text, setting the background color, and changing font*/
 .resume-header{
     padding: 15px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background: #5885b3;
 }
+/*Display image as a block and setting margin*/
 .resume img{
     display: block;
     margin: 1em auto;
 }
+/*Setting the padding, centering the text, setting the background color, and changing font*/
 footer {
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #001f3f;
 }
+/*Changing font size and setting color to white*/
 footer h2 {
     font-size: 20px;
     color: white;
